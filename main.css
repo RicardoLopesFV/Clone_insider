@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    padding: 28px 64px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content,
+.nav-content ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-content a img {
+    margin-right: 4rem;
+}
+
+.nav-content ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.nav-content ul a li{
+    list-style: none;
+}
+
+#banner {
+    width: 100%;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em; /* Não sei pq não funciona essa propriedade */
+    text-underline-offset: 0.5em;
+    font-weight: 500;
+    margin: 5rem 0 3rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunas {
+    margin-right: 1.5rem;
+}
+
+.colunas img {
+    height: 350px;
+    border-radius: 5px;
+}
+
+.colunas h3 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 1.7rem;
+}
+
+.colunas p {
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+#red {
+    color: #f94c43;
+}
+#riscado {
+    color: #939393;
+    text-decoration: line-through;
+    margin-left: .5rem;
+}
+
+#homem, #mulher {
+    margin-top: 10rem;
+}
+
+#mulher {
+    margin-bottom: 8rem;
+}
+
+#description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: justify;
+}
+
+#description p {
+    margin-bottom: .5rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section form p {
+    font-size: 14px;
+}
+
+section form input {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 5px;
+    border-radius: 4px;
+    width: 25%;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+section form button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+#recado {
+    margin-bottom: .5rem;
+}
+
+#recado h3 {
+    color: #5c5c5c;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
